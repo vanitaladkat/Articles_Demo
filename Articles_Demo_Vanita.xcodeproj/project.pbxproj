@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F27E007824ADDE3A0066D3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E007724ADDE3A0066D3CA /* AppDelegate.swift */; };
-		F27E007A24ADDE3A0066D3CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E007924ADDE3A0066D3CA /* SceneDelegate.swift */; };
-		F27E007C24ADDE3A0066D3CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E007B24ADDE3A0066D3CA /* ViewController.swift */; };
 		F27E007F24ADDE3A0066D3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27E007D24ADDE3A0066D3CA /* Main.storyboard */; };
 		F27E008224ADDE3A0066D3CA /* Articles_Demo_Vanita.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F27E008024ADDE3A0066D3CA /* Articles_Demo_Vanita.xcdatamodeld */; };
 		F27E008424ADDE3C0066D3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E008324ADDE3C0066D3CA /* Assets.xcassets */; };
 		F27E008724ADDE3C0066D3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27E008524ADDE3C0066D3CA /* LaunchScreen.storyboard */; };
 		F27E009224ADDE3C0066D3CA /* Articles_Demo_VanitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E009124ADDE3C0066D3CA /* Articles_Demo_VanitaTests.swift */; };
 		F27E009D24ADDE3C0066D3CA /* Articles_Demo_VanitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E009C24ADDE3C0066D3CA /* Articles_Demo_VanitaUITests.swift */; };
+		F27E00AC24ADDE7B0066D3CA /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = F27E00AB24ADDE7B0066D3CA /* ObjectMapper */; };
+		F27E00AF24ADDEB40066D3CA /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00AE24ADDEB40066D3CA /* ArticlesViewController.swift */; };
+		F27E00B124ADDECF0066D3CA /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00B024ADDECF0066D3CA /* ArticlesViewModel.swift */; };
+		F27E00B324ADDEEE0066D3CA /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00B224ADDEEE0066D3CA /* ArticlesModel.swift */; };
+		F27E00B624ADDF290066D3CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00B524ADDF290066D3CA /* NetworkManager.swift */; };
+		F27E00B924ADE51A0066D3CA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F27E00B824ADE51A0066D3CA /* Alamofire */; };
+		F27E00BB24ADF7400066D3CA /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00BA24ADF7400066D3CA /* ArticleTableViewCell.swift */; };
+		F27E00BD24ADF9750066D3CA /* ArticleTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00BC24ADF9750066D3CA /* ArticleTableViewCellViewModel.swift */; };
+		F27E00C024ADFA170066D3CA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F27E00BF24ADFA170066D3CA /* Kingfisher */; };
+		F27E00C224ADFA390066D3CA /* DynamicImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00C124ADFA390066D3CA /* DynamicImageLoader.swift */; };
+		F27E00C424ADFB9F0066D3CA /* UIView+LayerProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00C324ADFB9F0066D3CA /* UIView+LayerProperties.swift */; };
+		F27E00C624AE02350066D3CA /* Date+Propeties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00C524AE02350066D3CA /* Date+Propeties.swift */; };
+		F27E00C824AF242F0066D3CA /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00C724AF242F0066D3CA /* DatabaseManager.swift */; };
+		F27E00CA24AF268C0066D3CA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E00C924AF268C0066D3CA /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +50,6 @@
 /* Begin PBXFileReference section */
 		F27E007424ADDE3A0066D3CA /* Articles_Demo_Vanita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Articles_Demo_Vanita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27E007724ADDE3A0066D3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F27E007924ADDE3A0066D3CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F27E007B24ADDE3A0066D3CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F27E007E24ADDE3A0066D3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F27E008124ADDE3A0066D3CA /* Articles_Demo_Vanita.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Articles_Demo_Vanita.xcdatamodel; sourceTree = "<group>"; };
 		F27E008324ADDE3C0066D3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,17 @@
 		F27E009824ADDE3C0066D3CA /* Articles_Demo_VanitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Articles_Demo_VanitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27E009C24ADDE3C0066D3CA /* Articles_Demo_VanitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles_Demo_VanitaUITests.swift; sourceTree = "<group>"; };
 		F27E009E24ADDE3C0066D3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27E00AE24ADDEB40066D3CA /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		F27E00B024ADDECF0066D3CA /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		F27E00B224ADDEEE0066D3CA /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
+		F27E00B524ADDF290066D3CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F27E00BA24ADF7400066D3CA /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		F27E00BC24ADF9750066D3CA /* ArticleTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		F27E00C124ADFA390066D3CA /* DynamicImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicImageLoader.swift; sourceTree = "<group>"; };
+		F27E00C324ADFB9F0066D3CA /* UIView+LayerProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayerProperties.swift"; sourceTree = "<group>"; };
+		F27E00C524AE02350066D3CA /* Date+Propeties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Propeties.swift"; sourceTree = "<group>"; };
+		F27E00C724AF242F0066D3CA /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		F27E00C924AF268C0066D3CA /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27E00C024ADFA170066D3CA /* Kingfisher in Frameworks */,
+				F27E00AC24ADDE7B0066D3CA /* ObjectMapper in Frameworks */,
+				F27E00B924ADE51A0066D3CA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +125,9 @@
 		F27E007624ADDE3A0066D3CA /* Articles_Demo_Vanita */ = {
 			isa = PBXGroup;
 			children = (
+				F27E00B424ADDF040066D3CA /* Utility */,
+				F27E00AD24ADDE890066D3CA /* Articles */,
 				F27E007724ADDE3A0066D3CA /* AppDelegate.swift */,
-				F27E007924ADDE3A0066D3CA /* SceneDelegate.swift */,
-				F27E007B24ADDE3A0066D3CA /* ViewController.swift */,
 				F27E007D24ADDE3A0066D3CA /* Main.storyboard */,
 				F27E008324ADDE3C0066D3CA /* Assets.xcassets */,
 				F27E008524ADDE3C0066D3CA /* LaunchScreen.storyboard */,
@@ -131,6 +155,31 @@
 			path = Articles_Demo_VanitaUITests;
 			sourceTree = "<group>";
 		};
+		F27E00AD24ADDE890066D3CA /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				F27E00AE24ADDEB40066D3CA /* ArticlesViewController.swift */,
+				F27E00B024ADDECF0066D3CA /* ArticlesViewModel.swift */,
+				F27E00B224ADDEEE0066D3CA /* ArticlesModel.swift */,
+				F27E00BA24ADF7400066D3CA /* ArticleTableViewCell.swift */,
+				F27E00BC24ADF9750066D3CA /* ArticleTableViewCellViewModel.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		F27E00B424ADDF040066D3CA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F27E00B524ADDF290066D3CA /* NetworkManager.swift */,
+				F27E00C124ADFA390066D3CA /* DynamicImageLoader.swift */,
+				F27E00C324ADFB9F0066D3CA /* UIView+LayerProperties.swift */,
+				F27E00C524AE02350066D3CA /* Date+Propeties.swift */,
+				F27E00C724AF242F0066D3CA /* DatabaseManager.swift */,
+				F27E00C924AF268C0066D3CA /* Reachability.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +196,11 @@
 			dependencies = (
 			);
 			name = Articles_Demo_Vanita;
+			packageProductDependencies = (
+				F27E00AB24ADDE7B0066D3CA /* ObjectMapper */,
+				F27E00B824ADE51A0066D3CA /* Alamofire */,
+				F27E00BF24ADFA170066D3CA /* Kingfisher */,
+			);
 			productName = Articles_Demo_Vanita;
 			productReference = F27E007424ADDE3A0066D3CA /* Articles_Demo_Vanita.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +273,11 @@
 				Base,
 			);
 			mainGroup = F27E006B24ADDE3A0066D3CA;
+			packageReferences = (
+				F27E00AA24ADDE7B0066D3CA /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				F27E00B724ADE51A0066D3CA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F27E00BE24ADFA170066D3CA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F27E007524ADDE3A0066D3CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,10 +321,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F27E007C24ADDE3A0066D3CA /* ViewController.swift in Sources */,
+				F27E00B324ADDEEE0066D3CA /* ArticlesModel.swift in Sources */,
+				F27E00BD24ADF9750066D3CA /* ArticleTableViewCellViewModel.swift in Sources */,
 				F27E007824ADDE3A0066D3CA /* AppDelegate.swift in Sources */,
 				F27E008224ADDE3A0066D3CA /* Articles_Demo_Vanita.xcdatamodeld in Sources */,
-				F27E007A24ADDE3A0066D3CA /* SceneDelegate.swift in Sources */,
+				F27E00C224ADFA390066D3CA /* DynamicImageLoader.swift in Sources */,
+				F27E00C424ADFB9F0066D3CA /* UIView+LayerProperties.swift in Sources */,
+				F27E00B624ADDF290066D3CA /* NetworkManager.swift in Sources */,
+				F27E00AF24ADDEB40066D3CA /* ArticlesViewController.swift in Sources */,
+				F27E00C824AF242F0066D3CA /* DatabaseManager.swift in Sources */,
+				F27E00BB24ADF7400066D3CA /* ArticleTableViewCell.swift in Sources */,
+				F27E00C624AE02350066D3CA /* Date+Propeties.swift in Sources */,
+				F27E00B124ADDECF0066D3CA /* ArticlesViewModel.swift in Sources */,
+				F27E00CA24AF268C0066D3CA /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +656,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F27E00AA24ADDE7B0066D3CA /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		F27E00B724ADE51A0066D3CA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+		F27E00BE24ADFA170066D3CA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F27E00AB24ADDE7B0066D3CA /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F27E00AA24ADDE7B0066D3CA /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		F27E00B824ADE51A0066D3CA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F27E00B724ADE51A0066D3CA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F27E00BF24ADFA170066D3CA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F27E00BE24ADFA170066D3CA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F27E008024ADDE3A0066D3CA /* Articles_Demo_Vanita.xcdatamodeld */ = {
